@@ -1,7 +1,7 @@
 
 .foto{
     border-radius: 50%;
-    background-image: url("../../public/images/1366_2000.jpeg");
+    background-image: url("/images/1366_2000.jpeg");
     width: 250px;
     height: 250px;
     background-size: cover;

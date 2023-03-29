@@ -1,26 +1,34 @@
-import React from 'react'
+import React, { useEffect, useLayoutEffect, useState } from 'react'
 import Divider from '../components/Divider'
 import MainLayout from '../views/MainLayout'
 
 const Skills = () => {
+    const [show, setShow] = useState('')
+
+    useLayoutEffect(() => {
+        setTimeout(() => {
+            setShow('show');
+        }, 10);
+    }, [])
+
     return (
         <MainLayout>
             <section className='container'>
                 <h2 style={{ textAlign: 'center' }}>Competencias & habilidades</h2>
                 <article className='skills'>
-                    <img src="public/images/react.svg" alt="React" className='skillImg' />
-                    <img src="public/images/html.svg" alt="HTML" className='skillImg' />
-                    <img src="public/images/css.svg" alt="CSS" className='skillImg' />
-                    <img src="public/images/git.svg" alt="git" className='skillImg' />
-                    <img src="public/images/js.svg" alt="javascript" className='skillImg' />
+                    <img src="images/react.svg" alt="React" className={`skillImg ${show}`} />
+                    <img src="images/html.svg" alt="HTML" className={`skillImg ${show}`} />
+                    <img src="images/css.svg" alt="CSS" className={`skillImg ${show}`} />
+                    <img src="images/git.svg" alt="git" className={`skillImg ${show}`} />
+                    <img src="images/js.svg" alt="javascript" className={`skillImg ${show}`} />
                 </article>
 
                 <Divider />
 
                 <h2 style={{ textAlign: 'center' }}>Aprendiendo...</h2>
                 <article className='skills'>
-                    <img src="public/images/node.svg" alt="nodeJS" className='skillImg' />
-                    <img src="public/images/express.svg" alt="express" className='skillImg' />
+                    <img src="images/node.svg" alt="nodeJS" className={`skillImg ${show}`} />
+                    <img src="images/express.svg" alt="express" className={`skillImg ${show}`} />
                 </article>
             </section>
         </MainLayout>

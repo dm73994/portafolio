@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <MainLayout>
       <div className='grid-2'>
-        <img src="public/images/mailer.svg" alt="mail" className='mailersvg' />
+        <img src="/images/mailer.svg" alt="mail" className='mailersvg' />
         <ContactForm />
       </div>
     </MainLayout>
