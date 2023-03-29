@@ -1,0 +1,61 @@
+/* NAVEGACION GLOBAL */
+nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navOptions{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.navBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navDecorator{
+    width: 110%;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(113,73,198,1) 0%, rgba(252,41,71,1) 100%);
+}
+.navIcon{
+    background: linear-gradient(90deg, rgba(113,73,198,1) 0%, rgba(252,41,71,1) 100%);
+      transition: all .5 ease;
+}
+.activeNav, .logo{
+  background: -webkit-linear-gradient(45deg, rgba(113,73,198,1) 0%, rgba(252,41,71,1) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  transition: all .5 ease;
+}
+
+
+/*  MEDIDAS PARA CELULAR  */
+@media (max-width: 600px) {
+
+    nav{
+        flex-direction: column;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        justify-content: center;
+    }
+    .navOptions{
+        justify-content: space-evenly;
+        width: 100vw;
+        gap: 10px;
+    }
+    .logo{
+        margin: 0;
+    }
+
+}
+
+
+
+

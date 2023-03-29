@@ -1,0 +1,8 @@
+.skills{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.skillImg{
+    width: 10%;
+}

@@ -1,0 +1,17 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  justify-content: space-between;
+}
+.social{
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+.grayColor{
+    color: #d6d6d6 !important;
+}
