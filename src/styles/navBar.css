@@ -25,7 +25,7 @@ nav {
 }
 .navIcon{
     background: linear-gradient(90deg, rgba(113,73,198,1) 0%, rgba(252,41,71,1) 100%);
-      transition: all .5 ease;
+    transition: all .5 ease;
 }
 .activeNav, .logo{
   background: -webkit-linear-gradient(45deg, rgba(113,73,198,1) 0%, rgba(252,41,71,1) );

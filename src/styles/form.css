@@ -36,8 +36,9 @@ textarea:focus, input:focus{
     border-bottom: 1px solid;
     border-left: 1px solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient(90deg, rgba(113,73,198,1) , rgba(252,41,71,1));
+    border-image-source: linear-gradient(90deg, rgba(113,73,198,1) , rgba(252,41,71,1), rgba(0,0,0,0));
     /* animation: animatedgradient 3s ease infinite; */
+    
 }
 
 @keyframes animatedgradient {
@@ -57,9 +58,18 @@ textarea:focus, input:focus{
 
 /*  MEDIDAS PARA CELULAR  */
 @media (max-width: 600px) {
-
-.inputForm{
-    flex-direction: column;
-    margin-top: 10px;
+    .inputForm{
+        flex-direction: column;
+        margin-top: 10px;
+    }
 }
+
+/* EFECTOS */
+input, textarea{
+    background: rgba(0,0,0,0);
+    transition: background 5s ease-out;
+}
+input:hover, input:focus, textarea:hover{
+    transition: background 5s ease-out;
+    background: linear-gradient(90deg, rgba(113,73,198,.2) , rgba(252,41,71,.2), rgba(0,0,0,0));
 }

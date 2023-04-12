@@ -15,3 +15,11 @@ footer {
 .grayColor{
     color: #d6d6d6 !important;
 }
+
+/*  MEDIDAS PARA CELULAR  */
+@media (max-width: 600px) {
+  footer{
+    flex-direction: column;
+    gap: 10px;
+  }
+}

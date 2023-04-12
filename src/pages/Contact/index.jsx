@@ -5,7 +5,7 @@ import ContactForm from './ContactForm'
 const Contact = () => {
   return (
     <MainLayout>
-      <div className='grid-2'>
+      <div className='grid-2 contact-sx'>
         <img src="/images/mailer.svg" alt="mail" className='mailersvg' />
         <ContactForm />
       </div>
