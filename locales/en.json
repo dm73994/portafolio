@@ -100,5 +100,10 @@
     "title": "Skills and Technologies",
     "expirience": "Years of experience: ",
     "title2": "Currently Learning..."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Do you have a project in mind or want to chat? Find me at:",
+    "cvPrint": "View and print"
   }
 }

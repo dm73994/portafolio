@@ -100,5 +100,10 @@
     "title": "Habilidades y Tecnologías",
     "expirience": "Experiencia en años: ",
     "title2": "Aprendiendo Actualmente..."
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "¿Tienes un proyecto en mente o quieres conversar? Encuéntrame en:",
+    "cvPrint": "Imprimir CV"
   }
 }
