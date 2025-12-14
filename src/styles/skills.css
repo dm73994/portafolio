@@ -1,28 +1,175 @@
-.skills{
-    display: flex;
-    gap: 30px;
-    justify-content: space-evenly;
-}
-.skillImg{
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-.show{
-    width: 10%;
-    opacity: 1;
+/* CONTENEDOR DE SKILLS */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: clamp(1.5rem, 3vw, 2rem);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
 }
 
+/* TARJETA DE SKILL */
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: clamp(1.25rem, 3vw, 1.75rem);
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.skillCard.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Efecto stagger en las animaciones */
+.skillCard:nth-child(1).show { transition-delay: 0.05s; }
+.skillCard:nth-child(2).show { transition-delay: 0.1s; }
+.skillCard:nth-child(3).show { transition-delay: 0.15s; }
+.skillCard:nth-child(4).show { transition-delay: 0.2s; }
+.skillCard:nth-child(5).show { transition-delay: 0.25s; }
+.skillCard:nth-child(6).show { transition-delay: 0.3s; }
+.skillCard:nth-child(7).show { transition-delay: 0.35s; }
+.skillCard:nth-child(8).show { transition-delay: 0.4s; }
+
+.skillCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* IMAGEN DE SKILL */
+.skillCard .circle-map-node {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.skillCard .circle-map-image {
+    width: clamp(64px, 10vw, 80px);
+    height: clamp(64px, 10vw, 80px);
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f0f0f0;
+    transition: transform 0.3s ease;
+}
+
+.skillCard:hover .circle-map-image {
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* TEXTO DE SKILL */
+.skillCard h3 {
+    margin: 0;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    font-weight: 600;
+    color: #1a1a1a;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.skillCard p {
+    margin: 0;
+    font-size: clamp(0.8rem, 1.8vw, 0.875rem);
+    color: #666666;
+    text-align: center;
+    line-height: 1.4;
+}
+
+/* Estrellas de conocimiento */
+.skillCard p:last-child {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    color: #ffc107;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+}
+
+/* SECCIÓN DE APRENDIENDO */
+.skills.learning {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 200px));
+    justify-content: center;
+}
+
+.skills.learning .skillCard {
+    padding: 1.5rem;
+}
+
+.skills.learning .circle-map-image {
+    width: clamp(56px, 8vw, 72px);
+    height: clamp(56px, 8vw, 72px);
+}
+
+/* TABLET */
+@media (max-width: 900px) {
+    .skills {
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+/* MÓVIL */
 @media (max-width: 600px) {
-    .skills{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem 0;
     }
-    .skillImg{
-        width: 35%;
+    
+    .skillCard {
+        padding: 1rem;
+        gap: 0.5rem;
+        border-radius: 12px;
     }
-    .contact-sx{
-        display: flex !important;
-        flex-direction: column-reverse;
+    
+    .skillCard .circle-map-image {
+        width: 56px;
+        height: 56px;
+    }
+    
+    .skillCard h3 {
+        font-size: 0.85rem;
+    }
+    
+    .skillCard p {
+        font-size: 0.75rem;
+    }
+    
+    /* En móvil muy pequeño, hacer una sola columna */
+    @media (max-width: 400px) {
+        .skills {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+/* MODO OSCURO */
+@media (prefers-color-scheme: dark) {
+    .skillCard {
+        background: #1e1e1e;
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .skillCard:hover {
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+    
+    .skillCard h3 {
+        color: #f0f0f0;
+    }
+    
+    .skillCard p {
+        color: #b0b0b0;
+    }
+    
+    .skillCard .circle-map-image {
+        border-color: #2a2a2a;
     }
 }
