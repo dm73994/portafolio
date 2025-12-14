@@ -1,0 +1,104 @@
+{
+  "general": {
+    "showMore": "Mostrar más",
+    "showLess": "Mostrar menos"
+  },
+  "navBar": {
+    "home": "Inicio",
+    "studyWork": "Habilidades",
+    "contact": "Contacto"
+  },
+  "home": {
+      "title": "BIENVENIDO",
+      "intro": "Me llamo Carlos David Mesa, próximamente ingeniero de sistemas. A lo largo de mi carrera he trabajado en diversos proyectos que me han permitido crecer técnica y profesionalmente.",
+      "hobbies": "Me gusta leer, jugar ajedrez, parchís y fútbol.",
+      "quote": "La programación me entretiene tanto que no siento ni un día de trabajo: \"Elige un trabajo que te guste y no tendrás que trabajar ni un día de tu vida.\""
+  },
+  "experience": {
+    "title": "Formación Académica y Experiencia Laboral",
+    "header_2": "Habilidades y tecnologías.",
+    "header_3": "Desarrollos y logros.",
+    "systems_engineer_unicauca": {
+      "title": "Ingeniero de sistemas",
+      "institution": "Universidad del Cauca",
+      "startDate": "2019",
+      "endDate": "Presente",
+      "mode": "Presencial",
+      "skills": [
+        "Análisis y diseño de sistemas",
+        "Programación",
+        "Bases de datos",
+        "Redes de computadoras"
+      ],
+      "summary": "Finalicé estudios en ingeniería de sistemas con sólidos conocimientos en análisis y diseño de sistemas, programación, bases de datos y redes. Graduación prevista para 2026.",
+      "developments": [
+        "Sistema web para gestión y análisis de huella de carbono desarrollado para la Cruz Roja como proyecto de práctica de ingeniería de software."
+      ]
+    },
+    "frontend_jr_cmlexports": {
+      "title": "Desarrollador Front-end Jr",
+      "institution": "CMLexports INC",
+      "startDate": "Oct-2021",
+      "endDate": "Nov-2023",
+      "mode": "Remoto",
+      "skills": [
+        "ReactJS",
+        "React Native",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Git"
+      ],
+      "summary": "Trabajé en el desarrollo y mantenimiento de la aplicación móvil para casilleros internacionales, además de implementar nuevas funcionalidades en el CRM interno de la empresa.",
+      "developments": [
+        "Mantenimiento y desarrollo de nuevas funcionalidades para la app móvil de casilleros internacionales usando React Native.",
+        "Participación en el desarrollo del CRM interno con ReactJS en el frontend y NodeJS en el backend."
+      ]
+    },
+    "data_analyst_nexura": {
+      "title": "Analista de Datos Junior",
+      "institution": "Nexura Internacional",
+      "startDate": "Jul-2024",
+      "endDate": "Mar-2025",
+      "mode": "Remoto",
+      "skills": [
+        "ETL",
+        "Pentaho PDI",
+        "Modelado de datos",
+        "SQL"
+      ],
+      "summary": "Me encargué de la migración, transformación y modelado de datos en esquemas estrella, trabajando principalmente con Pentaho PDI y herramientas ETL de Microsoft.",
+      "developments": [
+        "Diseño y construcción de procesos ETL para migración y transformación de datos con Pentaho PDI.",
+        "Modelado de datos en esquemas estrella optimizados para consultas y generación de reportes."
+      ]
+    },
+    "fullstack_husj": {
+      "title": "Full-stack Developer",
+      "institution": "Hospital Universitario San José ESE",
+      "startDate": "Sept-2024",
+      "endDate": "Actualidad",
+      "mode": "Presencial",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "React TypeScript",
+        "Firebase",
+        "PostgreSQL",
+        "GitHub",
+        "Docker"
+      ],
+      "summary": "Desarrollo herramientas de software para áreas administrativas y asistenciales del hospital. He creado aplicaciones móviles en tiempo real y optimizado procesos que antes no existían, mejorando la productividad del personal.",
+      "developments": [
+        "App de escritorio para control de asistencia en rehabilitación que genera datos de productividad y mejora la gestión del tiempo del personal, además de analizar patrones de comportamiento de pacientes.",
+        "Aplicación móvil para rastreo de ambulancias en tiempo real y gestión de servicios ambulatorios con React Native y Firebase.",
+        "Suite de herramientas web para gestión administrativa usando Java Spring Boot en backend y React TypeScript en frontend, con arquitectura limpia, microservicios y federación de módulos."
+      ]
+    }
+  },
+  "skills": {
+    "title": "Habilidades y Tecnologías",
+    "expirience": "Experiencia en años: ",
+    "title2": "Aprendiendo Actualmente..."
+  }
+}

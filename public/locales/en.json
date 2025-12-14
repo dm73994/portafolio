@@ -1,0 +1,104 @@
+{
+  "general": {
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "navBar": {
+    "home": "Home",
+    "studyWork": "Skills",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "WELCOME",
+    "intro": "My name is Carlos David Mesa, soon to be a systems engineer. Throughout my career, I have worked on various projects that have allowed me to grow both technically and professionally.",
+    "hobbies": "I enjoy reading, playing chess, Parcheesi, and football.",
+    "quote": "Programming entertains me so much that I do not feel a single day of work: \"Choose a job you love, and you will never have to work a day in your life.\""
+  },
+  "experience": {
+    "title": "Academic Background and Work Experience",
+    "header_2": "Skills and technologies.",
+    "header_3": "Developments and achievements.",
+    "systems_engineer_unicauca": {
+      "title": "Systems Engineer",
+      "institution": "University of Cauca",
+      "startDate": "2019",
+      "endDate": "Present",
+      "mode": "On-site",
+      "skills": [
+        "Systems analysis and design",
+        "Programming",
+        "Databases",
+        "Computer networks"
+      ],
+      "summary": "I completed my studies in systems engineering with solid knowledge in systems analysis and design, programming, databases, and networks. Expected graduation in 2026.",
+      "developments": [
+        "Web system for carbon footprint management and analysis developed for the Red Cross as a software engineering internship project."
+      ]
+    },
+    "frontend_jr_cmlexports": {
+      "title": "Junior Front-end Developer",
+      "institution": "CMLexports INC",
+      "startDate": "Oct-2021",
+      "endDate": "Nov-2023",
+      "mode": "Remote",
+      "skills": [
+        "ReactJS",
+        "React Native",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Git"
+      ],
+      "summary": "I worked on the development and maintenance of the mobile application for international freight forwarding services, as well as implementing new features in the company’s internal CRM.",
+      "developments": [
+        "Maintenance and development of new features for the international freight forwarding mobile app using React Native.",
+        "Participation in the development of the internal CRM with ReactJS on the frontend and NodeJS on the backend."
+      ]
+    },
+    "data_analyst_nexura": {
+      "title": "Junior Data Analyst",
+      "institution": "Nexura International",
+      "startDate": "Jul-2024",
+      "endDate": "Mar-2025",
+      "mode": "Remote",
+      "skills": [
+        "ETL",
+        "Pentaho PDI",
+        "Data modeling",
+        "SQL"
+      ],
+      "summary": "I was responsible for data migration, transformation, and modeling using star schemas, working mainly with Pentaho PDI and Microsoft ETL tools.",
+      "developments": [
+        "Design and implementation of ETL processes for data migration and transformation using Pentaho PDI.",
+        "Data modeling using star schemas optimized for querying and report generation."
+      ]
+    },
+    "fullstack_husj": {
+      "title": "Full-stack Developer",
+      "institution": "San José University Hospital ESE",
+      "startDate": "Sept-2024",
+      "endDate": "Present",
+      "mode": "On-site",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "React TypeScript",
+        "Firebase",
+        "PostgreSQL",
+        "GitHub",
+        "Docker"
+      ],
+      "summary": "I develop software tools for administrative and healthcare areas of the hospital. I have created real-time mobile applications and optimized processes that previously did not exist, improving staff productivity.",
+      "developments": [
+        "Desktop application for rehabilitation attendance tracking that generates productivity data and improves staff time management, as well as analyzing patient behavior patterns.",
+        "Mobile application for real-time ambulance tracking and management of ambulance services using React Native and Firebase.",
+        "Suite of web tools for administrative management using Java Spring Boot on the backend and React TypeScript on the frontend, with clean architecture, microservices, and module federation."
+      ]
+    }
+  },
+  "skills": {
+    "title": "Skills and Technologies",
+    "expirience": "Years of experience: ",
+    "title2": "Currently Learning..."
+  }
+}

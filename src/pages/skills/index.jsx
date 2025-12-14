@@ -1,8 +1,10 @@
 import { useLayoutEffect, useState } from 'react';
 import Divider from '../components/Divider';
 import MainLayout from '../views/MainLayout';
+import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
+    const { t } = useTranslation();
     const [show, setShow] = useState('');
 
     const skills = [
@@ -10,49 +12,49 @@ const Skills = () => {
             name: 'React',
             time: '4',
             knoledge: 5,
-            image: 'public/images/react.svg',
+            image: '/images/react.svg',
         },
         {
             name: 'Spring Boot',
             time: '2',
             knoledge: 4,
-            image: 'public/images/spring-boot.webp',
+            image: '/images/spring-boot.webp',
         },
         {
             name: 'Java',
             time: '3',
             knoledge: 4,
-            image: 'public/images/java.webp',
+            image: '/images/java.webp',
         },
         {
             name: 'PostgreSQL, SQLServer, MySQL',
             time: '1',
             knoledge: 2,
-            image: 'public/images/db.webp',
+            image: '/images/db.webp',
         },
         {
             name: 'Typescript',
             time: '2',
             knoledge: 4,
-            image: 'public/images/ts.webp',
+            image: '/images/ts.webp',
         },
         {
             name: 'React Native',
             time: '1',
             knoledge: 3,
-            image: 'public/images/react.svg',
+            image: '/images/react.svg',
         },
         {
             name: 'Firebase',
             time: '1',
             knoledge: 3,
-            image: 'public/images/firebase.webp',
+            image: '/images/firebase.webp',
         },
         {
             name: 'GCP',
             time: '1',
             knoledge: 2,
-            image: 'public/images/gcp.gif',
+            image: '/images/gcp.gif',
         },
     ];
 
@@ -81,7 +83,7 @@ const Skills = () => {
         <MainLayout>
             <section className="container">
                 <h2 style={{ textAlign: 'center' }}>
-                    Competencias & habilidades
+                    {t('skills.title')}
                 </h2>
                 <article className="skills">
                     {skills.map((skill) => (
@@ -93,7 +95,7 @@ const Skills = () => {
                                 />
                             </div>
                             <h3>{skill.name}</h3>
-                            <p>Experiencia en años: {skill.time}</p>
+                            <p>{t('skills.expirience')} {skill.time}</p>
                             <p>{'⭐'.repeat(skill.knoledge)}</p>
                         </div>
                     ))}
@@ -101,13 +103,13 @@ const Skills = () => {
 
                 <Divider />
 
-                <h2 style={{ textAlign: 'center' }}>Aprendiendo...</h2>
+                <h2 style={{ textAlign: 'center' }}>{t('skills.title2')}</h2>
                 <article className="skills">
                     {learning.map((skill) => (
                         <div key={skill.name} className={`skillCard ${show}`}>
                             <div className="circle-map-node">
                                 <img
-                                    src={`public/images/${skill.image}`}
+                                    src={`/images/${skill.image}`}
                                     alt={skill.name}
                                     className="circle-map-image"
 
