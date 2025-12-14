@@ -27,7 +27,7 @@ const StudyWork = () => {
             developments: [
                 'Sistema web para gestión y análisis de huella de carbono desarrollado para la Cruz Roja como proyecto de práctica de ingeniería de software.',
             ],
-            image: '/images/Logo_universidad.webp',
+            image: 'public/images/Logo_universidad.webp',
         },
         {
             title: 'Desarrollador Front-end Jr',
@@ -50,7 +50,7 @@ const StudyWork = () => {
                 'Mantenimiento y desarrollo de nuevas funcionalidades para la app móvil de casilleros internacionales usando React Native.',
                 'Participación en el desarrollo del CRM interno con ReactJS en el frontend y NodeJS en el backend.',
             ],
-            image: '/images/Logo_cml.webp',
+            image: 'public/images/Logo_cml.webp',
         },
         {
             title: 'Analista de Datos Junior',
@@ -66,7 +66,7 @@ const StudyWork = () => {
                 'Diseño y construcción de procesos ETL para migración y transformación de datos con Pentaho PDI.',
                 'Modelado de datos en esquemas estrella optimizados para consultas y generación de reportes.',
             ],
-            image: '/images/Logo_nexura.webp',
+            image: 'public/images/Logo_nexura.webp',
         },
         {
             title: 'Full-stack Developer',
@@ -91,7 +91,7 @@ const StudyWork = () => {
                 'Aplicación móvil para rastreo de ambulancias en tiempo real y gestión de servicios ambulatorios con React Native y Firebase.',
                 'Suite de herramientas web para gestión administrativa usando Java Spring Boot en backend y React TypeScript en frontend, con arquitectura limpia, microservicios y federación de módulos.',
             ],
-            image: '/images/Logo_husj.webp',
+            image: 'public/images/Logo_husj.webp',
         },
     ];
 

@@ -10,49 +10,49 @@ const Skills = () => {
             name: 'React',
             time: '4',
             knoledge: 5,
-            image: 'react.svg',
+            image: 'public/images/react.svg',
         },
         {
             name: 'Spring Boot',
             time: '2',
             knoledge: 4,
-            image: 'spring-boot.webp',
+            image: 'public/images/spring-boot.webp',
         },
         {
             name: 'Java',
             time: '3',
             knoledge: 4,
-            image: 'java.webp',
+            image: 'public/images/java.webp',
         },
         {
             name: 'PostgreSQL, SQLServer, MySQL',
             time: '1',
             knoledge: 2,
-            image: 'db.webp',
+            image: 'public/images/db.webp',
         },
         {
             name: 'Typescript',
             time: '2',
             knoledge: 4,
-            image: 'ts.webp',
+            image: 'public/images/ts.webp',
         },
         {
             name: 'React Native',
             time: '1',
             knoledge: 3,
-            image: 'react.svg',
+            image: 'public/images/react.svg',
         },
         {
             name: 'Firebase',
             time: '1',
             knoledge: 3,
-            image: 'firebase.webp',
+            image: 'public/images/firebase.webp',
         },
         {
             name: 'GCP',
             time: '1',
             knoledge: 2,
-            image: 'gcp.gif',
+            image: 'public/images/gcp.gif',
         },
     ];
 
@@ -88,10 +88,8 @@ const Skills = () => {
                         <div key={skill.name} className={`skillCard ${show}`}>
                             <div className="circle-map-node">
                                 <img
-                                    src={`images/${skill.image}`}
-                                    alt={skill.name}
+                                    src={skill.image}
                                     className="circle-map-image"
-
                                 />
                             </div>
                             <h3>{skill.name}</h3>
@@ -109,7 +107,7 @@ const Skills = () => {
                         <div key={skill.name} className={`skillCard ${show}`}>
                             <div className="circle-map-node">
                                 <img
-                                    src={`images/${skill.image}`}
+                                    src={`public/images/${skill.image}`}
                                     alt={skill.name}
                                     className="circle-map-image"
 
