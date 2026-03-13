@@ -77,7 +77,7 @@
       "title": "Full-stack Developer",
       "institution": "San José University Hospital ESE",
       "startDate": "Sept-2024",
-      "endDate": "Present",
+      "endDate": "Dic-2025",
       "mode": "On-site",
       "skills": [
         "Java",
@@ -105,5 +105,97 @@
     "title": "Contact",
     "description": "Do you have a project in mind or want to chat? Find me at:",
     "cvPrint": "View and print"
+  },
+  "applications": {
+    "sectionTitle": "Applications and Projects",
+    "sectionSubtitle": "Throughout my career, I have worked on various projects that have allowed me to grow technically and professionally.",
+    "enterprise_suite": {
+      "title": "Enterprise Application Suite",
+      "role": "Full-stack Developer",
+      "period": "August 2025 - December 2025",
+      "description": "Design and development of an enterprise application suite aimed at automating administrative and healthcare processes. The system uses a microservices architecture in the backend and microfrontends in the presentation layer. Due to intellectual property restrictions, detailed functionality and internal architecture cannot be publicly disclosed.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "Spring Cloud",
+        "Hibernate",
+        "PostgreSQL",
+        "SQL Server",
+        "React",
+        "TypeScript",
+        "Vite",
+        "Material UI",
+        "Module Federation",
+        "RBAC"
+      ],
+      "linkLabel": "Private project"
+    },
+    "attendance_monitoring_system": {
+      "title": "User Attendance Monitoring System",
+      "role": "Software Developer",
+      "period": "2024",
+      "description": "Desktop application for file management and real-time analysis of attendance records. The system helps identify operational bottlenecks in physical rehabilitation services and is used by therapists and billing staff.",
+      "technologies": [
+        "Java",
+        "JavaFX",
+        "SQL Server",
+        "File Watcher",
+        "Concurrency Control"
+      ],
+      "linkLabel": "Private project"
+    },
+    "carbon_footprint_calculator": {
+      "title": "Corporate Carbon Footprint Calculator",
+      "role": "Frontend Lead / Backend Support",
+      "period": "2024",
+      "description": "SaaS web application designed to calculate corporate carbon footprints. Built with a multitenant architecture and microservices following a modular monolith approach. Led frontend development and contributed to backend implementation within a multidisciplinary team.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "Docker",
+        "PostgreSQL",
+        "React",
+        "TypeScript",
+        "Material UI"
+      ],
+      "linkLabel": "Private project"
+    },
+    "taxiok": {
+      "title": "TAXIOK – Taxi Request Platform",
+      "role": "Freelance Developer",
+      "period": "2023",
+      "description": "Real-time taxi request platform including web and mobile applications, allowing users to request transportation services and drivers to manage ride requests.",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "Material UI",
+        "HTML",
+        "CSS",
+        "Node.js",
+        "Firebase",
+        "Google Cloud Platform",
+        "React Native",
+        "Expo"
+      ],
+      "linkLabel": "Visit website"
+    },
+    "parqueapp": {
+      "title": "ParqueApp – Parking Management Platform",
+      "role": "Freelance Developer",
+      "period": "2023",
+      "description": "Parking lot management platform with multitenant architecture and a serverless approach. Designed to support scalable deployments and customizable configurations for different parking operators.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Node.js",
+        "Firebase",
+        "Google Cloud Platform"
+      ],
+      "linkLabel": "Visit website"
+    }
   }
 }
