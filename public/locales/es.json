@@ -77,7 +77,7 @@
       "title": "Full-stack Developer",
       "institution": "Hospital Universitario San José ESE",
       "startDate": "Sept-2024",
-      "endDate": "Actualidad",
+      "endDate": "Dic-2025",
       "mode": "Presencial",
       "skills": [
         "Java",
@@ -105,5 +105,116 @@
     "title": "Contacto",
     "description": "¿Tienes un proyecto en mente o quieres conversar? Encuéntrame en:",
     "cvPrint": "Imprimir CV"
+  },
+  
+  "applications": {
+    "sectionTitle": "Aplicaciones y Proyectos",
+    "sectionSubtitle": "A lo largo de mi carrera he trabajado en diversos proyectos que me han permitido crecer técnica y profesionalmente.",
+    "enterprise_suite": {
+      "title": "Enterprise Application Suite",
+      "organization": "Hospital Universitario San José ESE",
+      "role": "Full-stack Developer",
+      "period": "Agosto 2025 - Diciembre 2025",
+      "description": "Desarrollo e implementación de una suite empresarial para la automatización de procesos administrativos y de atención médica. Arquitectura basada en microservicios en el backend y microfrontends en la capa de presentación. Debido a restricciones de propiedad intelectual no se exponen funcionalidades internas ni arquitectura completa.",
+      "architecture": [
+        "Microservices",
+        "Microfrontends"
+      ],
+      "technologies": {
+        "backend": [
+          "Java",
+          "Spring Boot",
+          "Spring Security",
+          "Spring Cloud",
+          "Hibernate",
+          "PostgreSQL",
+          "SQL Server"
+        ],
+        "frontend": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "Material UI",
+          "Module Federation",
+          "RBAC"
+        ]
+      }
+    },
+    "attendance_monitoring_system": {
+      "title": "User Attendance Monitoring System",
+      "organization": "Hospital Universitario San José ESE",
+      "role": "Software Developer",
+      "description": "Aplicación de escritorio para gestión de archivos y análisis en tiempo real de registros de asistencia. Utilizada para identificar cuellos de botella en los procesos de atención de rehabilitación física por parte de terapeutas y personal de facturación.",
+      "technologies": [
+        "Java",
+        "JavaFX",
+        "SQL Server",
+        "File Watcher",
+        "Concurrency Control"
+      ]
+    },
+    "carbon_footprint_calculator": {
+      "title": "Corporate Carbon Footprint Calculator",
+      "organization": "Cruz Roja Colombiana – Seccional Popayán",
+      "role": "Frontend Lead / Backend Support",
+      "description": "Aplicación SaaS para el cálculo de huella de carbono corporativa con arquitectura multitenant y microservicios bajo enfoque de monolito modular.",
+      "architecture": [
+        "Multitenant",
+        "Microservices",
+        "Modular Monolith"
+      ],
+      "technologies": {
+        "backend": [
+          "Java",
+          "Spring Boot",
+          "Spring Security",
+          "Docker",
+          "PostgreSQL"
+        ],
+        "frontend": [
+          "React",
+          "TypeScript",
+          "Material UI"
+        ]
+      }
+    },
+    "taxiok": {
+      "title": "TAXIOK",
+      "role": "Freelancer Developer",
+      "description": "Plataforma para solicitar servicios de taxi en tiempo real con aplicación web y móvil.",
+      "url": "https://www.taxiok.app",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "Material UI",
+        "HTML",
+        "CSS",
+        "Node.js",
+        "Firebase",
+        "Google Cloud Platform",
+        "React Native",
+        "Expo"
+      ]
+    },
+    "parqueapp": {
+      "title": "ParqueApp",
+      "role": "Freelancer Developer",
+      "description": "Sistema de gestión de parqueaderos con arquitectura multitenant y enfoque serverless, desarrollado con objetivo de arquitectura basada en microservicios.",
+      "url": "https://www.parqueapp.com",
+      "architecture": [
+        "Multitenant",
+        "Serverless"
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Node.js",
+        "Firebase",
+        "Google Cloud Platform"
+      ]
+    }
   }
+  
 }

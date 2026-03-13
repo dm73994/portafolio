@@ -33,13 +33,13 @@ const ContactForm = () => {
     const cvLinks = [
         {
             name: 'CV Español',
-            url: 'public/docs/CVEN.pdf',
+            url: '/docs/CVEN.pdf',
             icon: <FiFileText />,
             lang: 'ES'
         },
         {
             name: 'CV English',
-            url: 'public/docs/CVEN.pdf',
+            url: '/docs/CVEN.pdf',
             icon: <Language />,
             lang: 'EN'
         }

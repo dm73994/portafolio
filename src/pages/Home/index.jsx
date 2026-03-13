@@ -2,6 +2,7 @@ import Divider from "../components/Divider"
 import MainLayout from "../views/MainLayout"
 import Presentation from "./Presentation"
 import StudyWork from "./StudyWork"
+import ApplicationsExperience from "./ApplicationsExperience"
 
 const Home = () => {
     return (
@@ -9,6 +10,8 @@ const Home = () => {
             <Presentation />
             <Divider />
             <StudyWork />
+            <Divider />
+            <ApplicationsExperience />
         </MainLayout>
     )
 }
